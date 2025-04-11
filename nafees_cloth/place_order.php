@@ -2,12 +2,6 @@
 session_start();
 include 'assets/connection/connection.php'; // Database connection
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-require 'assets/phpmailer/src/Exception.php';
-require 'assets/phpmailer/src/PHPMailer.php';
-require 'assets/phpmailer/src/SMTP.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $first_name = mysqli_real_escape_string($conn, $_POST['first_name']);
