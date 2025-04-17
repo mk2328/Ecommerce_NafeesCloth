@@ -1,3 +1,14 @@
+<style>
+    .footer__copyright p {
+    font-size: 14px !important;
+    color: #aaa !important;
+    margin: 0 !important;
+    padding: 15px 0 !important;
+    text-align: center !important;
+}
+
+</style>
+
 <!-- footer__section__start -->
 <div class="footer ">
     <div class="footer__inner sp_top_80">
@@ -108,3 +119,15 @@
         </div>
     </div>
 </div>
+
+<!-- Copyright Section Start -->
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center py-3">
+      <p style="margin: 0; font-size: 14px; color: #aaa;" class="footer__copyright">
+      &copy; 2025 Muskan Kamran. All rights reserved. | Designed & Developed by Muskan Kamran
+      </p>
+    </div>
+  </div>
+</div>
+<!-- Copyright Section End -->

@@ -2971,6 +2971,10 @@ mobile-aside-close .mobile-off-canvas-active .mobile-aside-close i {
   .herobanner__8 .herobanner__inner {
     height: 600px;
   }
+
+  .herobanner__img img {
+    height: 450px !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .herobanner__8 .herobanner__inner {
@@ -2985,6 +2989,9 @@ mobile-aside-close .mobile-off-canvas-active .mobile-aside-close i {
 @media (min-width: 576px) and (max-width: 767px) {
   .herobanner__8 .herobanner__inner {
     height: 730px;
+  }
+  .herobanner__img img {
+    height: 400px !important;
   }
 }
 
@@ -5519,7 +5526,8 @@ blockquote i {
   color: var(--primaryColor);
 }
 .cowndown__banner__img img {
-  width: 100%;
+  width:auto;
+  max-height: 400px !important;
 }
 
 .newslatter__inner h2 {

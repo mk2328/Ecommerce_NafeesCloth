@@ -92,6 +92,33 @@
                 max-width: 280px;
             }
         }
+
+
+        .herobanner__img img {
+            width: 100% !important;
+            height: auto !important;
+            max-width: 100% !important;
+            object-fit: cover !important;
+            display: block !important;
+        }
+
+        .herobanner__img__side {
+            padding: 0 15px !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+
+        /* Responsive tweaks for mobile screens */
+        @media (max-width: 768px) {
+            .herobanner__img__side {
+                margin-top: 20px !important;
+            }
+
+            .herobanner__img img {
+                object-fit: contain !important;
+            }
+        }
     </style>
 
 
@@ -146,7 +173,7 @@ include("assets/connection/connection.php")
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-12 herobanner__img__side">
                                     <div class="herobanner__img">
-                                        <img src="img/herobanner/main_herobanner__1.png" alt="">
+                                        <img src="img/herobanner/Untitled design (4).png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -167,7 +194,7 @@ include("assets/connection/connection.php")
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-12 herobanner__img__side">
                                     <div class="herobanner__img">
-                                        <img src="img/herobanner/main_herobanner__3.png" alt="">
+                                        <img src="img/herobanner/kids_hero2.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -586,13 +613,13 @@ include("assets/connection/connection.php")
                                 </div>
                             </div>
                             <div class="cowndown__banner__button">
-                                <a class="default__button" href="#">Shop Now</a>
+                                <a class="default__button" href="products.php?category=Women">Shop Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-12">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-12 pt-4">
                         <div class="cowndown__banner__img">
-                            <img src="img/banner/banner__3.png" alt="">
+                            <img src="assets/images/sale2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -662,7 +689,7 @@ include("assets/connection/connection.php")
                             </div>
                             <div class="feature__2__text">
                                 <h4>Free Shipping</h4>
-                                <p>On orders over <strong>$99.</strong></p>
+                                <p>On orders on <strong>all orders</strong></p>
                             </div>
                         </div>
                     </div>
@@ -705,7 +732,7 @@ include("assets/connection/connection.php")
         <!-- fetaure__section__end -->
 
         <!-- instagram__start -->
-        <div class="instagram">
+        <!-- <div class="instagram">
             <div class="container">
                 <div class="row">
                     <div class="section__title text-center">
@@ -756,7 +783,7 @@ include("assets/connection/connection.php")
 
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- instagram__end -->
 
 

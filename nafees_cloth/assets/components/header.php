@@ -3,7 +3,7 @@ session_start();
 if (isset($_SESSION['user_id'])) :
 ?>
     <!-- header__topbar__start -->
-    <div class="header__topbar desktop__menu__wrapper">
+    <div class="header__topbar desktop__menu__wrapper "  >
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7">
