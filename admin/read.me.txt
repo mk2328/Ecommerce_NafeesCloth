@@ -1,0 +1,5 @@
+Admin Credentials:
+
+username: admin1234
+email: admin12@gmail.com
+password: admin123
